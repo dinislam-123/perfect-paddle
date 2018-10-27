@@ -1,0 +1,789 @@
+@font-face {
+  font-family: 'Karla Bold';
+  src: url('fonts/Karla-Bold.ttf');
+}
+.karla-bold { font-family: 'Karla Bold'; }
+
+@font-face {
+  font-family: 'Karla Bold Italic';
+  src: url('fonts/Karla-BoldItalic.ttf');
+}
+.karla-bold-italic { font-family: 'Karla Bold Italic'; }
+
+@font-face {
+  font-family: 'Karla Italic';
+  src: url('fonts/Karla-Italic.ttf');
+}
+.karla-italic { font-family: 'Karla Italic'; }
+
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Regular.ttf');
+}
+.karla { font-family: 'Karla'; }
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('fonts/Pacifico.ttf');
+}
+.pacifico { font-family: 'Pacifico'; }
+
+body
+{
+  margin: 0;
+  text-align: center;
+  color:#2d2d2d;
+  font-family: karla;
+  font-size: 16px;
+  line-height: 1.25em;
+  box-sizing: border-box;
+}
+
+ /*following code for mobile application*/
+
+@media(max-width:600px)
+{
+.header1
+{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:90px;
+  background-color: black;
+  text-align: center;
+
+}
+
+
+.header1-item1, .header1-item2
+{
+  width:100%;
+  height:40px;
+}
+
+header div img
+{
+  width:50%;
+  height:40px;
+}
+
+header nav ul li {
+  display:inline;
+  list-style: none;
+  padding:7%;
+}
+
+nav ul li a{
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+p a{
+  color:white;
+}
+
+.banner1
+{
+width:100%;
+height:300px;
+
+}
+
+.banner
+{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height:280px;
+
+  background: linear-gradient(to top,
+    rgba(0, 0, 0, .35) 0%,
+
+    rgba(0, 0, 0, .25) 100%),
+
+  url("../images/kayak-bkgd.jpg");
+
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 8em 0;
+    padding-top: 4em;
+}
+.banner{
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+/*  margin: 1.5em auto; */
+  width: 100%;
+  height:280px;
+}
+
+.site-title span{
+  display: block;
+  color:white;
+  /*text-align: center;*/
+  padding: .4em 0;
+
+}
+.banner p {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  margin: 1.5em auto;
+  margin-bottom: 3em;
+  padding: 14px;
+  width: 70%;
+}
+
+a.btn-signup {
+
+  background-color: #e2574c;
+  border-radius: 2em;
+  border: 1px solid #e2574c;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 1.15em;
+  padding: .75em;
+}
+
+.btna
+{
+  text-align: center;
+}
+a.btn-signup:hover
+{
+  background-color: #b64036;
+}
+.enjoy-the {
+  /*margin-top: 5px;*/
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.great-outdoors, .from-the-water {
+  text-shadow: 2px 2px 5px #999;
+  font-family: pacifico;
+}
+
+.great-outdoors {
+  font-size: 3em;
+}
+
+.from-the-water {
+  font-size: 2.5em;
+}
+
+.about
+{
+  display:flex;
+  width:100%;
+  height:290px;
+  justify-content: center;
+
+}
+
+.about1
+{
+  padding-top: 20px;
+  width:95%;
+  height:270px;
+}
+.about .about1 p
+{
+  font-size: 14px;
+  font-size: karla;
+}
+.para
+{
+  display:none;
+}
+
+h2
+{
+ text-align: center;;
+ font-family:pacifico;
+ color:#646464;
+ font-size: 2.5em;
+}
+
+.list-images
+{
+ display:flex;
+ width:100%;
+ height:800px;
+ flex-direction: column;
+ justify-content: center;
+ padding: 10px;
+}
+
+.list-item1, .list-item2, .list-item3
+{
+ width: 95%;
+ height:250px;
+ align-items: center;
+ padding-top: 10px;
+}
+/*
+.list-item3
+{
+ width: 95%;
+ height:250px;
+ padding-top: 10px;
+}*/
+
+.list-images img {
+ width: 100%;
+ height:250px;
+ margin: .5em 0;
+ box-shadow: 1px 0px 5px 1px #666;
+}
+
+/*Rental Information and table*/
+p a{
+  color:red;
+}
+.rentals-info
+{
+display:flex;
+flex-direction: column;
+width:100%;
+height: 460px;
+justify-content: center;
+
+}
+
+.rentals-1
+{
+  width:95%;
+  height:270px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.rentals-2
+{
+  width:95%;
+  height:200px;
+  padding-left: 10px;
+}
+
+.rentals-table{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px;
+  border-color: #c8c8c8;
+
+}
+
+
+.rentals-table th td
+ {
+   border: 1px #c8c8c8;
+ }
+
+ .rentals-2 .rentals-table tr td{
+   font-size:13px;
+   font-family: karla;
+ }
+
+ .rentals-2 .rentals-table th td{
+   font-size:13px;
+   font-family: karla;
+ }
+
+
+.rentals-table th {
+  background: #e6e6e6;
+  text-align: center;
+  font-weight: bold;
+  padding: .5em 0;
+  border: 1px solid #c8c8c8;
+}
+.rentals-table td {
+  width: 33%;
+  padding: .5em;
+  border: 1px solid #c8c8c8;
+}
+
+.rentals-table td:first-child {
+  text-align: left;
+}
+.rentals-table tr:hover
+{
+  background-color: #fbf6d9;
+}
+
+.location
+{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height 420px;
+}
+
+.location1
+{
+  width:100%;
+  height:180px;
+}
+.map1
+{
+width:100%;
+height:240px;
+margin-left: 10px;
+}
+
+.map {
+  width: 100%;
+  height: 30vh;
+}
+
+.social-link
+{
+ background-color: black;
+ color:white;
+ display:flex;
+ width:100%;
+ height:340px;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.social-item1
+{
+ width:100%;
+ height:180px;
+ text-align: center;
+ padding-top: 40px;
+}
+.social-item1 p a
+{
+  color:white;
+}
+.social-item1 p
+{
+  font-size: 12px;
+  font-family: karla;
+}
+
+.social-item2
+{
+ width:100%;
+ height:90px;
+}
+
+footer div ul li a
+{
+  font-size: 12px;
+}
+
+footer p {
+  margin-bottom: 1.5em;
+}
+
+footer nav ul li{
+  display: inline;
+
+}
+
+div p em{
+  color:#646464;
+}
+
+footer ul li {
+  margin: .5em;
+}
+
+.sol1{
+  display: none;
+}
+}
+
+/* following Code for tablet and laptop device */
+
+
+@media(min-width:601px)
+/*and (max-width:1140px)*/
+{
+
+.header1
+{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height:40px;
+  background-color: black;
+}
+
+.header1-item1
+{
+  width:40%;
+  height:40px;
+  text-align:left;
+  margin-left: 10px;
+}
+
+.header1-item2
+{
+  width:60%;
+  height:40px;
+  text-align: right;
+  font-size: 12px;
+  font-family: karla;
+  font-weight: bold;
+  /*background-color: green;*/
+}
+
+header div img
+{
+  width:60%;
+  height:40px;
+}
+
+header nav ul li {
+  display:inline;
+  list-style: none;
+  padding: 10px;
+
+}
+
+nav ul li a{
+  /*font-size: 14px;*/
+  /*font-weight: bold;*/
+  color: white;
+  text-decoration: none;
+  /*font-size: 14px;*/
+}
+
+p a{
+  color:red;
+}
+
+.banner1
+{
+width:100%;
+height:300px;
+
+}
+
+.banner
+{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height:220px;
+
+  background: linear-gradient(to top,
+    rgba(0, 0, 0, .35) 0%,
+
+    rgba(0, 0, 0, .25) 100%),
+
+  url("../images/kayak-bkgd.jpg");
+
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 8em 0;
+    padding-top: 4em;
+}
+.banner{
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+/*  margin: 1.5em auto; */
+  width: 100%;
+  height:220px;
+}
+
+.site-title span{
+  display: block;
+  color:white;
+  /*text-align: center;*/
+  padding: .4em 0;
+}
+.banner .banner1 p br
+{
+display:none;
+}
+
+.banner p {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  margin: 1.5em auto;
+  margin-bottom: 3em;
+  padding: 1em;
+  width: 75%;
+}
+
+.site-title span{
+  display: block;
+  color:white;
+  text-align: center;
+  padding: .4em 0;
+}
+
+a.btn-signup {
+
+  background-color: #e2574c;
+  border-radius: 2em;
+  border: 1px solid #e2574c;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 1.15em;
+  padding: .75em;
+}
+
+.btna
+{
+  text-align: center;
+}
+a.btn-signup:hover
+{
+  background-color: #b64036;
+}
+.enjoy-the {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.great-outdoors, .from-the-water {
+  text-shadow: 2px 2px 5px #999;
+  font-family: pacifico;
+}
+
+.great-outdoors {
+  font-size: 3em;
+}
+
+.from-the-water {
+  font-size: 2em;
+}
+
+.about
+{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height:250px;
+}
+.about1
+{
+  width:100%;
+  height:200;
+  margin: 5px;
+  padding-top: 20px;
+}
+.about .about1 p
+{
+  display:none;
+}
+.about .about1 .para
+{
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: karla;
+  display: block;
+}
+ h2
+{
+  text-align: center;;
+font-family: pacifico;
+color:#646464;
+font-size: 2.5em;
+}
+
+em
+{
+  color: red;
+}
+
+.list-images {
+
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height:170px;
+  margin-left: 5px;
+}
+
+.list-item1, .list-item2, .list-item3
+{
+    width:100%;
+    height:170px;
+}
+
+article div img
+{
+ width:95%;
+  height:150px;
+  /*box-shadow: 1px 0px 5px 1px #666;*/
+  padding:7px;
+}
+
+.rentals-info
+{
+display:flex;
+flex-direction: row;
+width:100%;
+height: 240px;
+}
+
+.rentals-1
+{
+  width:45%;
+  height:240px;
+  text-align: left;
+  margin: 10px;
+}
+
+.rentals-info .rentals-1 p
+{
+  font-size: 13px;
+}
+.rentals-2
+{
+  width:45%;
+  height:240px;
+  margin-top: 10px;
+}
+/*justify-content: space-between;*/
+
+.rentals-table{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px;
+  border-color: #c8c8c8;
+
+}
+
+.rentals-2 .rentals-table tr td{
+  font-size:13px;
+}
+
+.rentals-2 .rentals-table th{
+  font-size:13px;
+  font-family: karla;
+}
+
+
+.rentals-table{
+  border-collapse: collapse;
+}
+.rentals-table th td
+ {
+   border: 1px solid #c8c8c8;
+ }
+
+.rentals-table th {
+  background: #e6e6e6;
+  text-align: center;
+  font-weight: bold;
+  padding: .5em 0;
+  border: 1px solid #c8c8c8;
+}
+.rentals-table td {
+  width: 33%;
+  padding: .5em;
+  border: 1px solid #c8c8c8;
+}
+
+.rentals-table td:first-child {
+  text-align: left;
+}
+.rentals-table tr:hover
+{
+  background-color: #fbf6d9;
+}
+
+.location
+{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height 420px;
+}
+
+.location1
+{
+  width:100%;
+  height:140px;
+}
+
+.location p{
+  display:inline;
+}
+
+.map1
+{
+width:100%;
+height:240px;
+margin-left: 10px;
+
+}
+
+.map {
+  width: 100%;
+  height: 30vh;
+}
+
+h2
+{
+ text-align:center;
+ font-family: pacifico;
+ color:#646464;
+font-size: 2.5em;
+}
+
+.social-link
+{
+  display:flex;
+  width:100%;
+  height:200px;
+  flex-direction: row;
+  padding-top: 25px;
+  background-color: black;
+  color:white;
+  justify-content: space-between;
+}
+
+.social-item1
+{
+  width:75%;
+  height:200px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.social-item1 p a
+{
+  color:white;
+}
+.social-item1 p
+{
+  font-size: 12px;
+
+}
+.social-item2
+{
+  width:135px;
+  height:200px;
+  text-align: left;
+}
+
+footer div ul li
+{
+  display:block;
+  list-style: none;
+}
+footer div ul li a
+{
+  font-size: 12px;
+}
+
+div p em{
+  color:#646464;
+}
+}

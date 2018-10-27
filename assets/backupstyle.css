@@ -1,0 +1,162 @@
+
+@font-face {
+  font-family: 'Karla Bold';
+  src: url('fonts/Karla-Bold.ttf');
+}
+.karla-bold { font-family: 'Karla Bold'; }
+
+@font-face {
+  font-family: 'Karla Bold Italic';
+  src: url('fonts/Karla-BoldItalic.ttf');
+}
+.karla-bold-italic { font-family: 'Karla Bold Italic'; }
+
+@font-face {
+  font-family: 'Karla Italic';
+  src: url('fonts/Karla-Italic.ttf');
+}
+.karla-italic { font-family: 'Karla Italic'; }
+
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Regular.ttf');
+}
+.karla { font-family: 'Karla'; }
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('fonts/Pacifico.ttf');
+}
+.pacifico { font-family: 'Pacifico'; }
+
+.social-link{
+  font-family: pacifico;
+  font-size: 30px;
+}
+body {
+  font-size: 16px;
+  background: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+header{
+  text-align: center;
+  background-color: black;
+  padding-top: 10px;
+}
+header img{
+  max-width: 60%;
+}
+
+.fo10 ul li
+{
+  display: inline;
+}
+
+.fo10 ul li a
+{
+  padding: 10px;
+}
+nav ul{
+  float:right;
+}
+nav ul li{
+  padding:1em 0;
+  display: flex;
+  margin:0 auto;
+  list-style:none;
+  max-width:70%;
+  justify-content: space-between;
+}
+nav ul li a {
+dispaly: inline block;
+text-decoration: none;
+font-size: 1em;
+}
+
+.banner
+{
+  background: linear-gradient(to top,
+    rgba(0, 0, 0, .35) 0%,
+
+    rgba(0, 0, 0, .25) 100%),
+
+  url(images/kayak-bkgd.jpg');
+
+    background-position: top center;
+    background-size: cover;
+    padding: 4em 0;
+}
+.site-title span{
+  displau: block;
+  color:white;
+  text-align: center;
+  padding: .4em 0;
+}
+.banner p {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  margin: 1.5em auto;
+  padding: 1em;
+  width: 75%;
+}
+
+a.btn-signup {
+  background-color: #e2574c;
+  border-radius: 2em;
+  border: 1px solid #e2574c;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.15em;
+  padding: .75em;
+}
+.tbl2
+{
+/*background-image: url("images/kayak-bkgd.jpg")*/
+
+width:400px; height:300px;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#map
+{
+  width:400px;
+  height:400px;
+}
+ .kayak1, .kayak2, .kayak3
+ {
+  width: 160px;
+  height:120px;
+}
+
+.kayak0
+{
+  width: 400px;
+  height:400px;
+}
+#title ul li
+{
+  width:100px;
+  background-color: red;
+  float:left;
+  text-decoration: :none;
+  display:block;
+}
+
+
+.imgtbl
+{
+width: 480px;
+height: 480px;
+}
+.enjoy-the
+{
+  position:absolute;
+}

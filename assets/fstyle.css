@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+.container {
+  background: grey;
+  min-height: 100vh;
+  width: 100%;
+}
+.flex-item {
+  color: white;
+  font-size: 3em;
+  text-shadow: 2px 2px lightgrey;
+  text-align:center;;
+}
+.one {
+  background: green;
+}
+.two {
+  background: orange;
+}
+.three {
+  background: aqua;
+}
+.four {
+  background: red;
+}
+.five {
+  background: goldenrod;
+}
+.six {
+  background: magenta;
+}
+.seven {
+  background: darkred;
+}
+.eight {
+  background: darkorchid;
+}
+.nine {
+  background: chartreuse;
+}
+.ten {
+  background: fuchsia;
+}
+/* end default styles */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+/*   align-items: center; */
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+/* .five {
+  font-size: 6em;
+}
+
+.two {
+  font-size: 50em;
+} */
